@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -33,6 +34,14 @@ public class AdjSet implements Graph {
 				//adjList[i] = new LinkedList<>();
 				//adjList[i] = new HashSet<>();
 				adjList[i] = new TreeSet<>();
+				
+				//如想v入栈的时候降序排列，则传入一个选择器
+//				adjList[i] = new TreeSet<>(new Comparator<Integer>() {
+//					@Override
+//					public int compare(Integer o1, Integer o2) {
+//						return o2 - o1;
+//					}
+//				});
 			}
 			
 			while((line = reader.readLine())!= null) {

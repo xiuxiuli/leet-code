@@ -7,41 +7,43 @@ import graph.AdjSet;
 import graph.Graph;
 
 //递归遍历图
-public class GraphDFSR {
+public class ConnectComponentCount {
 	private Graph g;
-	private List<Integer> res;
+	private int ConnectCompCount;
 	private boolean visited[];
 	
-	public GraphDFSR(Graph g) {
+	public ConnectComponentCount(Graph g) {
 		this.g = g;
 		if (g == null) return;
-		this.res = new ArrayList<>();
+		
+		this.ConnectCompCount = 0;
+		
 		this.visited = new boolean[g.getV()];
 		
 		for (int v = 0; v < g.getV(); v++) {
 			if (!visited[v]) {
 				dfs(v);
+				ConnectCompCount++;
 			}
 		}
 	}
 		
 	private void dfs(int v) {
-		res.add(v);
 		visited[v] = true;
 		for (int w : g.getAdjVertex(v)) {
 			if (!visited[w])
 				dfs(w);
 		}
 	}
-	
-	public List<Integer> getRes(){
-		return res;
+
+	public int getConnectCompCount() {
+		return ConnectCompCount;
 	}
 	
 	public static void main(String[] args) {
-		String graphDoc = "/Users/xiuli/eclipse-workspace/leetcode2/src/graph/graph_dfs.txt";
+		String graphDoc = "/Users/xiuli/eclipse-workspace/leetcode2/src/graph/graph_dfs_disconnected.txt";
 		Graph g = new AdjSet(graphDoc);
-		GraphDFSR graphDfsR = new GraphDFSR(g);
-		System.out.println(graphDfsR.getRes());
+		ConnectComponentCount graphDfsR = new ConnectComponentCount(g);
+		System.out.println(graphDfsR.getConnectCompCount());
 	}
 }
