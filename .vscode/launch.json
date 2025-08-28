@@ -4,7 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-    
+        {
+            "type": "java",
+            "name": "_442_Find_All_Duplicates_in_an_Array",
+            "request": "launch",
+            "mainClass": "_442_Find_All_Duplicates_in_an_Array",
+            "projectName": "leet-code_24660475"
+        },
         {
             "type": "java",
             "name": "Current File",

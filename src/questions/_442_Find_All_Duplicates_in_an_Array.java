@@ -9,11 +9,12 @@ public class _442_Find_All_Duplicates_in_an_Array{
         List<Integer> result = new ArrayList<>();
 
         for (int i = 0; i < nums.length; i++){
-            if (nums[i] < 0){
-                result.add(i);
+            int index = Math.abs(nums[i]) - 1; // 第一步：定位到索引
+
+            if (nums[index] < 0){   // 第二步：检查这个位置是不是负数
+                result.add(index + 1);  // 如果负数 → 第2次出现, 重复 → 加入结果
             } else {
-                int index = nums[i]-1;
-                nums[index] = nums[index] * -1;
+                nums[index] = -nums[index]; // 如果不是负数 → 第一次出现 → 打上负号
             }
         }
         return result;
@@ -23,5 +24,6 @@ public class _442_Find_All_Duplicates_in_an_Array{
         _442_Find_All_Duplicates_in_an_Array obj = new _442_Find_All_Duplicates_in_an_Array();
         int[] nums = {4,3,2,7,8,2,3,1};
         List<Integer> result = obj.findDuplicates(nums);
+        System.out.println(result); 
     }
 }
