@@ -1,4 +1,4 @@
-package array;
+package data_structure;
 
 public class ArrayUtil {
 

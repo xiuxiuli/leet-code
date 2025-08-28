@@ -1,0 +1,15 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/bin": true,
+        "**/out": true,
+        "**/target": true
+    },
+    "search.exclude": {
+        "**/.git": true,
+        "**/bin": true,
+        "**/out": true,
+        "**/target": true
+    },
+    "java.project.sourcePaths": ["src", "question", "data_structure"] // 只扫描这些源码目录
+}
