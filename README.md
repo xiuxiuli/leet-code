@@ -236,7 +236,15 @@
 - 1143\. [Longest Common Subsequence](dp/_1143_Longest_Common_Subsequence.java)
 
 ## design（设计题）
-已做（见对应模块）：146 LRU Cache、155 Min Stack、173 BST Iterator、208 Implement Trie、211 Add and Search Words、295 Find Median from Data Stream、297 Serialize and Deserialize Binary Tree、981 Time Based Key-Value Store
+已做（见对应模块）：
+- 146\. LRU Cache
+- 155\. Min Stack
+- 173\. BST Iterator
+- 208\. Implement Trie
+- 211\. Add and Search Words
+- 295\. Find Median from Data Stream
+- 297\. Serialize and Deserialize Binary Tree
+- 981\. Time Based Key-Value Store
 
 - 355\. Design Twitter（待补）
 - 362\. Design Hit Counter (lock)（待补）
