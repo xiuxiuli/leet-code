@@ -33,6 +33,7 @@
 - 3\. [Longest Substring Without Repeating Characters](slidingwindow/_3_Longest_Substring_Without_Repeating_Characters.java)
 - 76\. [Minimum Window Substring](slidingwindow/_76_Minimum_Window_Substring.java)
 - 209\. [Minimum Size Subarray Sum](slidingwindow/_209_Minimum_Size_Subarray_Sum.java)
+- 239\. Sliding Window Maximum（待补）
 - 424\. [Longest Repeating Character Replacement](slidingwindow/_424_Longest_Repeating_Character_Replacement.java)
 - 438\. [Find All Anagrams in a String](slidingwindow/_438_Find_All_Anagrams_in_a_String.java)
 - 567\. [Permutation in String](slidingwindow/_567_Permutation_in_String.java)
@@ -57,10 +58,12 @@
 - 128\. [Longest Consecutive Sequence](hashmap/_128_Longest_Consecutive_Sequence.java)
 - 205\. [Isomorphic Strings](hashmap/_205_Isomorphic_Strings.java)
 - 217\. Contains Duplicate
+- 271\. Encode and Decode Strings (lock)（待补）
 - 290\. Word Pattern
 - 383\. [Ransom Note](hashmap/_383_Ransom_Note.java)
 
 ## binarysearch
+- 4\. Median of Two Sorted Arrays（待补）
 - 33\. Search in Rotated Sorted Array
 - 34\. [Find First and Last Position of Element in Sorted Array](binarysearch/_34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.java)
 - 74\. [Search a 2D Matrix](binarysearch/_74_Search_a_2D_Matrix.java)
@@ -69,6 +72,7 @@
 - 704\. [Binary Search](binarysearch/_704_Binary_Search.java)
 - 875\. [Koko Eating Bananas](binarysearch/_875_Koko_Eating_Bananas.java)
 - 981\. [Time Based Key-Value Store](binarysearch/_981_Time_Based_Key_Value_Store.java)
+- 1011\. Capacity To Ship Packages Within D Days（待补）
 
 ## stack
 - 42\. [Trapping Rain Water](stack/_42_Trapping_Rain_Water.java)
@@ -80,6 +84,7 @@
 - 496\. [Next Greater Element I](stack/_496_Next_Greater_Element_I.java)
 - 503\. [Next Greater Element II](stack/_503_Next_Greater_Element_II.java)
 - 739\. [Daily Temperatures](stack/_739_daily_temperatures.java)
+- 853\. Car Fleet（待补）
 - 907\. [Sum of Subarray Minimums](stack/_907_Sum_of_Subarray_Minimums.java)
 
 ## linkedlist
@@ -93,6 +98,7 @@
 - 86\. [Partition List](linkedlist/_86_Partition_List.java)
 - 92\. [Reverse Linked List II](linkedlist/_92_Reverse_Linked_List_II.java)
 - 138\. [Copy List with Random Pointer](linkedlist/_138_Copy_List_with_Random_Pointer.java)
+- 142\. Linked List Cycle II（待补）
 - 143\. [Reorder List](linkedlist/_143_Reorder_List.java)
 - 146\. [LRU Cache](linkedlist/_146_LRU_Cache.java)
 - 206\. [Reverse Linked List](linkedlist/_206_Reverse_Linked_List.java)
@@ -102,6 +108,7 @@
 ## heap
 - 23\. [Merge k Sorted Lists](heap/_23_Merge_k_Sorted_Lists.java)
 - 215\. [Kth Largest Element in an Array](heap/_215_Kth_Largest_Element_in_an_Array.java)
+- 253\. Meeting Rooms II (lock，可在 LintCode 919 做)（待补）
 - 295\. [Find Median from Data Stream](heap/_295_Find_Median_from_Data_Stream.java)
 - 347\. [Top K Frequent Elements](heap/_347_Top_K_Frequent_Elements.java)
 - 373\. [Find K Pairs with Smallest Sums](heap/_373_Find_K_Pairs_with_Smallest_Sums.java)
@@ -113,6 +120,7 @@
 - 100\. Same Tree
 - 101\. [Symmetric Tree](tree/_101_Symmetric_Tree.java)
 - 102\. Binary Tree Level Order Traversal
+- 103\. Binary Tree Zigzag Level Order Traversal（待补）
 - 104\. [Maximum Depth of Binary Tree](tree/_104._Maximum_Depth_of_Binary_Tree.java)
 - 105\. [Construct Binary Tree from Preorder and Inorder Traversal](tree/_105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.java)
 - 106\. [Construct Binary Tree from Inorder and Postorder Traversal](tree/_106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java)
@@ -126,8 +134,10 @@
 - 230\. [Kth Smallest Element in a BST](tree/_230_Kth_Smallest_Element_in_a_BST.java)
 - 235\. [Lowest Common Ancestor of a Binary Search Tree](tree/_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.java)
 - 297\. [Serialize and Deserialize Binary Tree](tree/_297_Serialize_and_Deserialize_Binary_Tree.java)
+- 437\. Path Sum III（待补）
 - 543\. Diameter of Binary Tree
 - 572\. [Subtree of Another Tree](tree/_572_Subtree_of_Another_Tree.java)
+- 863\. All Nodes Distance K in Binary Tree（待补）
 - 1448\. [Count Good Nodes in Binary Tree](tree/_1448_Count_Good_Nodes_in_Binary_Tree.java)
 
 ## trie
@@ -146,6 +156,7 @@
 - 269\. Alien Dictionary (lock)
 - 310\. [Minimum Height Trees](graph/_310_Minimum_Heigh_Trees.java)
 - 323\. Number of Connected Components in an Undirected Graph (lock)
+- 332\. Reconstruct Itinerary（待补）
 - 399\. [Evaluate Division](graph/_399_Evaluate_Division.java)
 - 417\. [Pacific Atlantic Water Flow](graph/_417_Pacific_Atlantic_Water_Flow.java)
 - 433\. [Minimum Genetic Mutation](graph/_433_Minimum_Genetic_Mutation.java)
@@ -156,6 +167,7 @@
 - 721\. [Accounts Merge](graph/_721_Accounts_Merge.java)
 - 733\. [Flood Fill](graph/_733_flood_fill.java)
 - 743\. [Network Delay Time](graph/_743_Network_Delay_Time.java)
+- 778\. Swim in Rising Water（待补）
 - 785\. [Is Graph Bipartite?](graph/_785_Is_Graph_Bipartite.java)
 - 787\. Cheapest Flights Within K Stops
 - 909\. [Snakes and Ladders](graph/_909_Snakes_and_Ladders.java)
@@ -188,6 +200,7 @@
 - 134\. [Gas Station](greedy/_134_Gas_Station.java)
 - 135\. Candy
 - 409\. Longest Palindrome
+- 435\. Non-overlapping Intervals（待补）
 - 452\. [Minimum Number of Arrows to Burst Balloons](greedy/_452_Minimum_Number_of_Arrows_to_Burst_Balloons.java)
 - 621\. [Task Scheduler](greedy/_621_Task_Scheduler.java)
 - 678\. [Valid Parenthesis String](greedy/_678_Valid_Parenthesis_String.java)
@@ -195,6 +208,7 @@
 - 846\. Hand of Straights
 
 ## dp
+- 5\. Longest Palindromic Substring（待补）
 - 62\. [Unique Paths](dp/_62_Unique_Paths.java)
 - 63\. [Unique Paths II](dp/_63_Unique_Paths_II.java)
 - 64\. [Minimum Path Sum](dp/_64_Minimum_Path_Sum.java)
@@ -217,8 +231,43 @@
 - 322\. [Coin Change](dp/_322_Coin_Change.java)
 - 416\. [Partition Equal Subset Sum](dp/_416_Partition_Equal_Subset_Sum.java)
 - 518\. Coin Change II
+- 647\. Palindromic Substrings（待补）
 - 931\. Minimum Falling Path Sum
 - 1143\. [Longest Common Subsequence](dp/_1143_Longest_Common_Subsequence.java)
+
+## design（设计题）
+已做（见对应模块）：146 LRU Cache、155 Min Stack、173 BST Iterator、208 Implement Trie、211 Add and Search Words、295 Find Median from Data Stream、297 Serialize and Deserialize Binary Tree、981 Time Based Key-Value Store
+
+- 355\. Design Twitter（待补）
+- 362\. Design Hit Counter (lock)（待补）
+- 380\. Insert Delete GetRandom O(1)（待补）
+- 460\. LFU Cache（待补）
+- 588\. Design In-Memory File System (lock)（待补）
+- 1146\. Snapshot Array（待补）
+- 1396\. Design Underground System（待补）
+
+## bit（位运算）
+- 136\. Single Number（待补）
+- 191\. Number of 1 Bits（待补）
+- 268\. Missing Number（待补）
+- 338\. Counting Bits（待补）
+- 371\. Sum of Two Integers（待补）
+
+## system design（系统设计，非力扣）
+资源：《System Design Interview》Alex Xu 第 1、2 卷、Hello Interview、DDIA、ByteByteGo
+
+1. URL Shortener（短链接）（待补）
+2. Rate Limiter（限流器）（待补）
+3. News Feed / Twitter Timeline（待补）
+4. Chat System（WhatsApp / Messenger）（待补）
+5. Notification System（待补）
+6. Typeahead / Search Autocomplete（待补）
+7. Web Crawler（待补）
+8. Distributed Key-Value Store / Cache（待补）
+9. YouTube / Netflix（视频上传与播放）（待补）
+10. Uber / Yelp（地理位置，Geohash / QuadTree）（待补）
+11. Ticketmaster（高并发抢票）（待补）
+12. Google Docs（协同编辑）（待补）
 
 ## src/questions
 - 1\. [Two Sum](src/questions/_1_Two_Sum.java)
