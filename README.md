@@ -25,6 +25,7 @@
 - 153\. [Find Minimum in Rotated Sorted Array](twopointer/_153_Find_Minimum_in_Rotated_Sorted_Array.java)
 - 167\. [Two Sum II - Input Array Is Sorted](twopointer/_167_Two_Sum_II_Input_Array_Is_Sorted.java)
 - 283\. [Move Zeroes](twopointer/_283_Move_Zeroes.java)
+- 344\. Reverse String
 - 392\. [Is Subsequence](twopointer/_392_Is_Subsequence.java)
 - 1047\. [Remove All Adjacent Duplicates In String](twopointer/_1047_Remove_All_Adjacent_Duplicates_In_String.java)
 
@@ -55,12 +56,16 @@
 - 49\. [Group Anagrams](hashmap/_49_Group_Anagrams.java)
 - 128\. [Longest Consecutive Sequence](hashmap/_128_Longest_Consecutive_Sequence.java)
 - 205\. [Isomorphic Strings](hashmap/_205_Isomorphic_Strings.java)
+- 217\. Contains Duplicate
+- 290\. Word Pattern
 - 383\. [Ransom Note](hashmap/_383_Ransom_Note.java)
 
 ## binarysearch
+- 33\. Search in Rotated Sorted Array
 - 34\. [Find First and Last Position of Element in Sorted Array](binarysearch/_34_Find_First_and_Last_Position_of_Element_in_Sorted_Array.java)
 - 74\. [Search a 2D Matrix](binarysearch/_74_Search_a_2D_Matrix.java)
 - 162\. [Find Peak Element](binarysearch/_162_Find_Peak_Element.java)
+- 278\. First Bad Version (lock)
 - 704\. [Binary Search](binarysearch/_704_Binary_Search.java)
 - 875\. [Koko Eating Bananas](binarysearch/_875_Koko_Eating_Bananas.java)
 - 981\. [Time Based Key-Value Store](binarysearch/_981_Time_Based_Key_Value_Store.java)
@@ -105,18 +110,23 @@
 
 ## tree
 - 98\. [Validate Binary Search Tree](tree/_98_Validate_Binary_Search_Tree.java)
+- 100\. Same Tree
 - 101\. [Symmetric Tree](tree/_101_Symmetric_Tree.java)
+- 102\. Binary Tree Level Order Traversal
 - 104\. [Maximum Depth of Binary Tree](tree/_104._Maximum_Depth_of_Binary_Tree.java)
 - 105\. [Construct Binary Tree from Preorder and Inorder Traversal](tree/_105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.java)
 - 106\. [Construct Binary Tree from Inorder and Postorder Traversal](tree/_106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java)
+- 110\. Balanced Binary Tree
 - 112\. [Path Sum](tree/_112_Path_Sum.java)
 - 114\. [Flatten Binary Tree to Linked List](tree/_114_Flatten_Binary_Tree_to_Linked_List.java)
 - 124\. [Binary Tree Maximum Path Sum](tree/_124_Binary_Tree_Maximum_Path_Sum.java)
 - 173\. [Binary Search Tree Iterator](tree/_173_Binary_Search_Tree_Iterator.java)
+- 199\. Binary Tree Right Side View
 - 226\. [Invert Binary Tree](tree/_226_Invert_Binary_Tree.java)
 - 230\. [Kth Smallest Element in a BST](tree/_230_Kth_Smallest_Element_in_a_BST.java)
 - 235\. [Lowest Common Ancestor of a Binary Search Tree](tree/_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.java)
 - 297\. [Serialize and Deserialize Binary Tree](tree/_297_Serialize_and_Deserialize_Binary_Tree.java)
+- 543\. Diameter of Binary Tree
 - 572\. [Subtree of Another Tree](tree/_572_Subtree_of_Another_Tree.java)
 - 1448\. [Count Good Nodes in Binary Tree](tree/_1448_Count_Good_Nodes_in_Binary_Tree.java)
 
@@ -132,7 +142,10 @@
 - 200\. [Number of Islands](graph/_200_Number_Of_Islands.java)
 - 207\. [Course Schedule](graph/_207_Course_Schedule.java) / [BFS 版](graph/_207_Course_Schedule_bfs.java)
 - 236\. [Lowest Common Ancestor of a Binary Tree](graph/_236_Lowest_Common_Ancestor_of_a_Binary_Tree.java)
+- 261\. Graph Valid Tree (lock)
+- 269\. Alien Dictionary (lock)
 - 310\. [Minimum Height Trees](graph/_310_Minimum_Heigh_Trees.java)
+- 323\. Number of Connected Components in an Undirected Graph (lock)
 - 399\. [Evaluate Division](graph/_399_Evaluate_Division.java)
 - 417\. [Pacific Atlantic Water Flow](graph/_417_Pacific_Atlantic_Water_Flow.java)
 - 433\. [Minimum Genetic Mutation](graph/_433_Minimum_Genetic_Mutation.java)
@@ -144,9 +157,11 @@
 - 733\. [Flood Fill](graph/_733_flood_fill.java)
 - 743\. [Network Delay Time](graph/_743_Network_Delay_Time.java)
 - 785\. [Is Graph Bipartite?](graph/_785_Is_Graph_Bipartite.java)
+- 787\. Cheapest Flights Within K Stops
 - 909\. [Snakes and Ladders](graph/_909_Snakes_and_Ladders.java)
 - 994\. [Rotting Oranges](graph/_994_Rotting_Oranges.java)
 - 1091\. [Shortest Path in Binary Matrix](graph/_1091_Shortest_Path_in_Binary_Matrix.java)
+- 1584\. Min Cost to Connect All Points
 
 ## backtracking
 - 17\. [Letter Combinations of a Phone Number](backtracking/_17_Letter_Combinations_of_a_Phone_Number.java)
@@ -154,11 +169,14 @@
 - 39\. [Combination Sum](backtracking/_39_Combination_Sum.java)
 - 40\. [Combination Sum II](backtracking/_40_Combination_Sum_II.java)
 - 46\. [Permutations](backtracking/_46_Permutations.java)
+- 51\. N-Queens
+- 52\. N-Queens II
 - 77\. [Combinations](backtracking/_77_Combinations.java)
 - 78\. [Subsets](backtracking/_78_Subsets.java)
 - 79\. [Word Search](backtracking/_79_Word_Search.java)
 - 90\. [Subsets II](backtracking/_90_Subsets_II.java)
 - 131\. [Palindrome Partitioning](backtracking/_131_Palindrome_Partitioning.java)
+- 494\. Target Sum
 
 ## greedy
 - 45\. [Jump Game II](greedy/_45_Jump_Game_II.java)
@@ -168,10 +186,13 @@
 - 121\. [Best Time to Buy and Sell Stock](greedy/_121_Bes_Time_to_Buy_and_Sell_Stock_I_greedy.java)
 - 122\. [Best Time to Buy and Sell Stock II](greedy/_121_Bes_Time_to_Buy_and_Sell_Stock_II.java)
 - 134\. [Gas Station](greedy/_134_Gas_Station.java)
+- 135\. Candy
+- 409\. Longest Palindrome
 - 452\. [Minimum Number of Arrows to Burst Balloons](greedy/_452_Minimum_Number_of_Arrows_to_Burst_Balloons.java)
 - 621\. [Task Scheduler](greedy/_621_Task_Scheduler.java)
 - 678\. [Valid Parenthesis String](greedy/_678_Valid_Parenthesis_String.java)
 - 763\. [Partition Labels](greedy/_763_Partition_Labels.java)
+- 846\. Hand of Straights
 
 ## dp
 - 62\. [Unique Paths](dp/_62_Unique_Paths.java)
@@ -180,14 +201,23 @@
 - 70\. [Climbing Stairs](dp/_70_Climbing_Stairs.java)
 - 72\. [Edit Distance](dp/_72_Edit_Distance.java)
 - 91\. [Decode Ways](dp/_91_Decode_Ways.java)
+- 97\. Interleaving String
+- 115\. Distinct Subsequences
+- 120\. Triangle
 - 121\. [Best Time to Buy and Sell Stock](dp/_121_Bes_Time_to_Buy_and_Sell_Stock_dp.java)
 - 122\. [Best Time to Buy and Sell Stock II](dp/_121_Bes_Time_to_Buy_and_Sell_Stock_II.java)
+- 123\. Best Time to Buy and Sell Stock III
 - 139\. [Word Break](dp/_139_Word_Break.java)
+- 152\. Maximum Product Subarray
 - 198\. [House Robber](dp/_198_House_Robber.java)
 - 213\. [House Robber II](dp/_213_House_Robber_II.java)
+- 221\. Maximal Square
 - 300\. [Longest Increasing Subsequence](dp/_300_Longest_Increasing_Subsequence.java)
+- 309\. Best Time to Buy and Sell Stock with Cooldown
 - 322\. [Coin Change](dp/_322_Coin_Change.java)
 - 416\. [Partition Equal Subset Sum](dp/_416_Partition_Equal_Subset_Sum.java)
+- 518\. Coin Change II
+- 931\. Minimum Falling Path Sum
 - 1143\. [Longest Common Subsequence](dp/_1143_Longest_Common_Subsequence.java)
 
 ## src/questions
